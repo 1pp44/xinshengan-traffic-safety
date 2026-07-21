@@ -1,0 +1,86 @@
+{
+  "ok": true,
+  "downloaded": 8,
+  "assets": [
+    {
+      "name": "plastic-75.jpg",
+      "path": "C:/Users/王子安/.accio/accounts/1765629206/agents/DID-D464A3-02D464A3U1780311-3946-4D496A/project/xinshengan-traffic-safety-20260721162505/public/assets/images/xinshengan/plastic-75.jpg",
+      "publicPath": "/assets/images/xinshengan/plastic-75.jpg",
+      "bytes": 69433,
+      "width": 800,
+      "height": 800,
+      "format": "JPEG",
+      "contentType": "image/jpeg"
+    },
+    {
+      "name": "pu-70.jpg",
+      "path": "C:/Users/王子安/.accio/accounts/1765629206/agents/DID-D464A3-02D464A3U1780311-3946-4D496A/project/xinshengan-traffic-safety-20260721162505/public/assets/images/xinshengan/pu-70.jpg",
+      "publicPath": "/assets/images/xinshengan/pu-70.jpg",
+      "bytes": 140025,
+      "width": 1320,
+      "height": 1320,
+      "format": "JPEG",
+      "contentType": "image/jpeg"
+    },
+    {
+      "name": "plastic-70-dual.jpg",
+      "path": "C:/Users/王子安/.accio/accounts/1765629206/agents/DID-D464A3-02D464A3U1780311-3946-4D496A/project/xinshengan-traffic-safety-20260721162505/public/assets/images/xinshengan/plastic-70-dual.jpg",
+      "publicPath": "/assets/images/xinshengan/plastic-70-dual.jpg",
+      "bytes": 82163,
+      "width": 800,
+      "height": 800,
+      "format": "JPEG",
+      "contentType": "image/jpeg"
+    },
+    {
+      "name": "soft-plastic-73.jpg",
+      "path": "C:/Users/王子安/.accio/accounts/1765629206/agents/DID-D464A3-02D464A3U1780311-3946-4D496A/project/xinshengan-traffic-safety-20260721162505/public/assets/images/xinshengan/soft-plastic-73.jpg",
+      "publicPath": "/assets/images/xinshengan/soft-plastic-73.jpg",
+      "bytes": 70559,
+      "width": 800,
+      "height": 800,
+      "format": "JPEG",
+      "contentType": "image/jpeg"
+    },
+    {
+      "name": "plastic-70.jpg",
+      "path": "C:/Users/王子安/.accio/accounts/1765629206/agents/DID-D464A3-02D464A3U1780311-3946-4D496A/project/xinshengan-traffic-safety-20260721162505/public/assets/images/xinshengan/plastic-70.jpg",
+      "publicPath": "/assets/images/xinshengan/plastic-70.jpg",
+      "bytes": 83287,
+      "width": 800,
+      "height": 800,
+      "format": "JPEG",
+      "contentType": "image/jpeg"
+    },
+    {
+      "name": "chain-ready-75.jpg",
+      "path": "C:/Users/王子安/.accio/accounts/1765629206/agents/DID-D464A3-02D464A3U1780311-3946-4D496A/project/xinshengan-traffic-safety-20260721162505/public/assets/images/xinshengan/chain-ready-75.jpg",
+      "publicPath": "/assets/images/xinshengan/chain-ready-75.jpg",
+      "bytes": 83887,
+      "width": 800,
+      "height": 800,
+      "format": "JPEG",
+      "contentType": "image/jpeg"
+    },
+    {
+      "name": "eva-75.jpg",
+      "path": "C:/Users/王子安/.accio/accounts/1765629206/agents/DID-D464A3-02D464A3U1780311-3946-4D496A/project/xinshengan-traffic-safety-20260721162505/public/assets/images/xinshengan/eva-75.jpg",
+      "publicPath": "/assets/images/xinshengan/eva-75.jpg",
+      "bytes": 86390,
+      "width": 800,
+      "height": 800,
+      "format": "JPEG",
+      "contentType": "image/jpeg"
+    },
+    {
+      "name": "thickened-plastic-70.jpg",
+      "path": "C:/Users/王子安/.accio/accounts/1765629206/agents/DID-D464A3-02D464A3U1780311-3946-4D496A/project/xinshengan-traffic-safety-20260721162505/public/assets/images/xinshengan/thickened-plastic-70.jpg",
+      "publicPath": "/assets/images/xinshengan/thickened-plastic-70.jpg",
+      "bytes": 80476,
+      "width": 800,
+      "height": 800,
+      "format": "JPEG",
+      "contentType": "image/jpeg"
+    }
+  ]
+}

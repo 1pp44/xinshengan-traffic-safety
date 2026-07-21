@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "siteId": "xinshengan-traffic-safety-20260721162505",
+  "name": "xinshengan-traffic-safety-20260721162505",
+  "kind": "react-vite",
+  "devCommand": "vite",
+  "buildCommand": "vite build",
+  "outputDir": "dist",
+  "entry": "index.html",
+  "createdBy": "accio-site-builder",
+  "createdAt": "2026-07-21T08:28:29.832Z",
+  "installedAt": "2026-07-21T10:44:06.614Z",
+  "databaseUrl": "",
+  "subdomain": "xinshengan-safety",
+  "publishedUrl": "https://xinshengan-safety.site.accio.ai",
+  "publishedAt": "2026-07-21T12:40:47.732Z",
+  "deployId": "dep_1784637623331_df1ff43b"
+}
