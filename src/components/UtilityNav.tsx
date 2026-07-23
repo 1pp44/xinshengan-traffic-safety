@@ -38,7 +38,7 @@ export const UtilityNav: React.FC = () => {
 
         <div className="nav-mobile-controls">
           <LanguageSelector />
-          <button className="menu-toggle" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
+          <button aria-label="Toggle navigation" className="menu-toggle" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} type="button">
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>

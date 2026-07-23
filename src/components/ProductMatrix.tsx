@@ -63,9 +63,11 @@ export const ProductMatrix: React.FC<ProductMatrixProps> = ({ onCompare, compare
         ))}
       </div>
 
-      <ProductDrawer 
-        product={selectedProduct} 
-        onClose={() => setSelectedProduct(null)} 
+      <ProductDrawer
+        isCompared={selectedProduct ? comparedIds.includes(selectedProduct.id) : false}
+        onClose={() => setSelectedProduct(null)}
+        onCompare={onCompare}
+        product={selectedProduct}
       />
     </section>
   );

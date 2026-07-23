@@ -4,6 +4,8 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { Pause, Play, RotateCcw } from 'lucide-react';
 import { useLanguage } from '../state/LanguageContext';
+import { useInquiry } from '../state/InquiryContext';
+import { products } from '../data/productData';
 import { Reveal } from './Reveal';
 import { assetUrl } from '../lib/assetUrl';
 
@@ -13,6 +15,9 @@ const INITIAL_TARGET = new THREE.Vector3(0, 0.78, 0);
 
 export function Bollard3DViewer() {
   const { t } = useLanguage();
+  const { selectedProducts, toggleProduct } = useInquiry();
+  const featuredProduct = products.find((product) => product.id === 'p4');
+  const isSelected = featuredProduct ? selectedProducts.some((item) => item.productId === featuredProduct.id) : false;
   const mountRef = useRef<HTMLDivElement>(null);
   const controlsRef = useRef<OrbitControls | null>(null);
   const cameraRef = useRef<THREE.PerspectiveCamera | null>(null);
@@ -187,6 +192,18 @@ export function Bollard3DViewer() {
             <h3 className="viewer-subtitle">PU 70 CM BOLLARD</h3>
             <p className="viewer-desc">{t('visualOnly')}</p>
             <ul className="viewer-spec-list"><li>70 cm reference height</li><li>3 fluorescent reflective bands</li><li>18 cm reference base</li><li>4 display mounting recesses</li></ul>
+            <div className="showroom-next-actions">
+              <button
+                aria-pressed={isSelected}
+                className="btn-primary"
+                disabled={!featuredProduct}
+                onClick={() => featuredProduct && toggleProduct(featuredProduct.id, featuredProduct.name)}
+                type="button"
+              >
+                <span>{isSelected ? t('selectedCount') : t('addToInquiry')}</span>
+              </button>
+              <a className="btn-outline" href="#configure"><span>{t('goConfigure')}</span></a>
+            </div>
           </Reveal>
         </div>
       </div>

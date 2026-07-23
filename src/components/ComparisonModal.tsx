@@ -55,6 +55,9 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({ products, onCl
             </tbody>
           </table>
         </div>
+        <div className="comparison-next-row">
+          <a className="btn-primary" href="#configure" onClick={onClose}><span>{t('goConfigure')}</span></a>
+        </div>
       </div>
     </div>
   );

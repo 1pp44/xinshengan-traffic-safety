@@ -13,6 +13,7 @@ import { ComparisonModal } from './components/ComparisonModal';
 import { SpecConfigurator } from './components/SpecConfigurator';
 import { InquirySummary } from './components/InquirySummary';
 import { CorporateFooter } from './components/CorporateFooter';
+import { JourneyBar } from './components/JourneyBar';
 import { products, Product } from './data/productData';
 import './styles.css';
 
@@ -47,6 +48,7 @@ function AppContent() {
   return (
     <div className="page-shell">
       <UtilityNav />
+      <JourneyBar compareCount={comparedProducts.length} onOpenCompare={() => setShowComparison(true)} />
       <HeroSpotlight />
       <ProductMatrix 
         onCompare={handleCompare} 
